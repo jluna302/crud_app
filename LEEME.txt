@@ -1,19 +1,19 @@
 
-📘 CRUD App - Instrucciones para ejecutar
+CRUD App - Instrucciones para ejecutar
 
 Este proyecto contiene una pequeña aplicación CRUD con Backend en Node.js y Frontend en React (Vite).
 
 ==============================
-🧰 REQUISITOS PREVIOS
+REQUISITOS PREVIOS
 ==============================
 - Node.js y npm instalados
 - Editor de código recomendado: VSCode
 
 ==============================
-🚀 PASOS PARA EJECUTAR
+PASOS PARA EJECUTAR
 ==============================
 
-1️⃣ BACKEND
+1️BACKEND
 
 1. Abrir una terminal.
 2. Ir a la carpeta backend:
@@ -30,7 +30,7 @@ Este proyecto contiene una pequeña aplicación CRUD con Backend en Node.js y Fr
 
 ---
 
-2️⃣ FRONTEND
+2️FRONTEND
 
 1. Abrir otra terminal.
 2. Ir a la carpeta frontend:
@@ -53,14 +53,14 @@ Este proyecto contiene una pequeña aplicación CRUD con Backend en Node.js y Fr
 
 ---
 
-🔍 PRUEBA
+PRUEBA
 
 - Visita http://localhost:5173
 - Agrega una tarea, elimina una tarea.
 - El backend responderá desde http://localhost:3001
 
 ==============================
-❗ NOTAS
+NOTAS
 ==============================
 - Asegúrate que el backend esté corriendo ANTES del frontend.
 - Si hay errores CORS o de conexión, revisa que el backend esté activo.
