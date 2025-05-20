@@ -1,0 +1,66 @@
+
+📘 CRUD App - Instrucciones para ejecutar
+
+Este proyecto contiene una pequeña aplicación CRUD con Backend en Node.js y Frontend en React (Vite).
+
+==============================
+🧰 REQUISITOS PREVIOS
+==============================
+- Node.js y npm instalados
+- Editor de código recomendado: VSCode
+
+==============================
+🚀 PASOS PARA EJECUTAR
+==============================
+
+1️⃣ BACKEND
+
+1. Abrir una terminal.
+2. Ir a la carpeta backend:
+   cd crud-app/backend
+
+3. Instalar dependencias:
+   npm install
+
+4. Ejecutar el servidor:
+   node index.js
+
+   Esto debe mostrar:
+   Servidor backend en http://localhost:3001
+
+---
+
+2️⃣ FRONTEND
+
+1. Abrir otra terminal.
+2. Ir a la carpeta frontend:
+   cd crud-app/frontend
+
+3. Inicializar proyecto con Vite si es necesario:
+   npm create vite@latest . -- --template react
+
+4. Instalar dependencias:
+   npm install
+   npm install axios
+
+5. Ejecutar el frontend:
+   npm run dev
+
+   Esto mostrará un enlace como:
+   ➜  Local:   http://localhost:5173/
+
+6. Abre ese enlace en el navegador.
+
+---
+
+🔍 PRUEBA
+
+- Visita http://localhost:5173
+- Agrega una tarea, elimina una tarea.
+- El backend responderá desde http://localhost:3001
+
+==============================
+❗ NOTAS
+==============================
+- Asegúrate que el backend esté corriendo ANTES del frontend.
+- Si hay errores CORS o de conexión, revisa que el backend esté activo.
